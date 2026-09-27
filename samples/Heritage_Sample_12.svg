@@ -1,8 +1,17 @@
-<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
-<g fill="none" stroke="#000000" stroke-width="2">
-<path d="M200 260 C160 220 90 220 80 160 C75 130 100 110 125 120 C150 130 155 160 140 175"/>
-<path d="M200 260 C240 220 310 220 320 160 C325 130 300 110 275 120 C250 130 245 160 260 175"/>
-<circle cx="200" cy="270" r="16"/>
-<path d="M186 284 L200 320 L214 284"/>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000">
+  <g fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="500" cy="500" rx="180" ry="240" stroke-width="5" />
+    <ellipse cx="500" cy="500" rx="150" ry="210" stroke-width="2" />
+    <path d="M 380.0 280.0 L 300.0 280.0 L 300.0 360.0" stroke-width="5" />
+    <circle cx="300" cy="280" r="15" stroke-width="3" />
+    <path d="M 620.0 280.0 L 700.0 280.0 L 700.0 360.0" stroke-width="5" />
+    <circle cx="700" cy="280" r="15" stroke-width="3" />
+    <path d="M 380.0 720.0 L 300.0 720.0 L 300.0 640.0" stroke-width="5" />
+    <circle cx="300" cy="720" r="15" stroke-width="3" />
+    <path d="M 620.0 720.0 L 700.0 720.0 L 700.0 640.0" stroke-width="5" />
+    <circle cx="700" cy="720" r="15" stroke-width="3" />
+    <circle cx="500" cy="500" r="60" stroke-width="4" />
+    <rect x="480" y="480" width="40" height="40" stroke-width="2" />
+  </g>
 </svg>
