@@ -1,12 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><g fill="none" stroke="#000" stroke-width="4">
-  <circle cx="500" cy="500" r="420"/>
-  <circle cx="500" cy="500" r="280"/>
-  <line x1="500" y1="500" x2="920.0" y2="500.0"/>
-  <line x1="500" y1="500" x2="797.0" y2="797.0"/>
-  <line x1="500" y1="500" x2="500.0" y2="920.0"/>
-  <line x1="500" y1="500" x2="203.0" y2="797.0"/>
-  <line x1="500" y1="500" x2="80.0" y2="500.0"/>
-  <line x1="500" y1="500" x2="203.0" y2="203.0"/>
-  <line x1="500" y1="500" x2="500.0" y2="80.0"/>
-  <line x1="500" y1="500" x2="797.0" y2="203.0"/>
-</g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000">
+  <g fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round">
+    <polygon points="500.0,300.0 550.0,440.0 515.0,550.0 485.0,550.0 450.0,440.0" stroke-width="5" />
+    <path d="M 525.0 460.0 L 630.0 410.0 L 660.0 520.0 L 560.0 560.0 L 520.0 560.0" stroke-width="4" />
+    <path d="M 475.0 460.0 L 370.0 410.0 L 340.0 520.0 L 440.0 560.0 L 480.0 560.0" stroke-width="4" />
+    <rect x="415" y="565" width="170" height="24" stroke-width="5" />
+    <polygon points="455.0,595.0 545.0,595.0 500.0,680.0" stroke-width="4" />
+  </g>
+</svg>
