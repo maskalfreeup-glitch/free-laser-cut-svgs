@@ -417,6 +417,80 @@
     flex-shrink: 0;
   }
 
+  .specs-strip {
+    padding: 64px 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .specs-strip h2 {
+    font-size: clamp(20px, 2.6vw, 26px);
+    font-weight: 700;
+    letter-spacing: -0.3px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .specs-strip .specs-intro {
+    text-align: center;
+    color: var(--text-secondary);
+    font-size: 14px;
+    max-width: 560px;
+    margin: 0 auto 40px;
+  }
+
+  .specs-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+  }
+
+  @media (max-width: 780px) {
+    .specs-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .specs-card {
+    background-color: var(--bg-elevated);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 22px 24px;
+    transition: border-color 0.25s ease;
+  }
+
+  .specs-card:hover {
+    border-color: var(--border-hover);
+  }
+
+  .specs-card h3 {
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 14px;
+  }
+
+  .specs-card ul {
+    list-style: none;
+  }
+
+  .specs-card li {
+    font-size: 13.5px;
+    color: var(--text-secondary);
+    padding: 6px 0;
+    border-top: 1px solid var(--border);
+  }
+
+  .specs-card li:first-child {
+    border-top: none;
+    padding-top: 0;
+  }
+
+  .specs-card li strong {
+    color: var(--text-primary);
+    font-weight: 600;
+  }
+
   .commercial-banner {
     padding: 80px 0;
     background: linear-gradient(180deg, rgba(212, 163, 89, 0.06) 0%, rgba(10, 14, 23, 0) 100%);
@@ -798,6 +872,48 @@
             Download SVG
           </a>
         </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="specs-strip">
+  <div class="container">
+    <h2>Shop Compatibility &amp; Specs</h2>
+    <p class="specs-intro">Every file in this set is tested against the following machines, software, and material tolerances before publishing.</p>
+    <div class="specs-grid">
+
+      <div class="specs-card">
+        <h3>Supported Machines</h3>
+        <ul>
+          <li><strong>Glowforge</strong> Basic, Plus, Pro</li>
+          <li><strong>xTool</strong> D1, M1, P2</li>
+          <li><strong>OMTech</strong> CO2 series</li>
+          <li><strong>Creality Falcon</strong> diode series</li>
+          <li><strong>Shapeoko / Carbide</strong> CNC routers</li>
+        </ul>
+      </div>
+
+      <div class="specs-card">
+        <h3>Software Verified</h3>
+        <ul>
+          <li><strong>LightBurn</strong> v1.2+</li>
+          <li><strong>LaserGRBL</strong></li>
+          <li><strong>Inkscape</strong></li>
+          <li><strong>Adobe Illustrator</strong></li>
+          <li><strong>Silhouette Studio</strong> Business Edition</li>
+        </ul>
+      </div>
+
+      <div class="specs-card">
+        <h3>Kerf Tolerances</h3>
+        <ul>
+          <li>Calibrated for <strong>0.08mm–0.18mm</strong> beam spot diameters</li>
+          <li><strong>3mm (1/8")</strong> Birch Plywood</li>
+          <li><strong>Cast Acrylic</strong> sheet stock</li>
+          <li><strong>MDF</strong> standard density</li>
+        </ul>
       </div>
 
     </div>
