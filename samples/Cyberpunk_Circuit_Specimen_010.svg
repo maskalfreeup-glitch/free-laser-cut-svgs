@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000">
+  <g fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round">
+    <polygon points="636.0,500.0 568.0,617.8 432.0,617.8 364.0,500.0 432.0,382.2 568.0,382.2" stroke-width="5" />
+    <path d="M 636.0 500.0 L 846.0 500.0" stroke-width="4" />
+    <circle cx="846.0" cy="500.0" r="11" fill="#000000" stroke="none" />
+    <path d="M 568.0 617.8 L 647.0 754.6" stroke-width="4" />
+    <circle cx="647.0" cy="754.6" r="11" fill="#000000" stroke="none" />
+    <path d="M 432.0 617.8 L 329.5 795.3" stroke-width="4" />
+    <circle cx="329.5" cy="795.3" r="11" fill="#000000" stroke="none" />
+    <path d="M 364.0 500.0 L 166.0 500.0" stroke-width="4" />
+    <circle cx="166.0" cy="500.0" r="11" fill="#000000" stroke="none" />
+    <path d="M 432.0 382.2 L 330.5 206.4" stroke-width="4" />
+    <circle cx="330.5" cy="206.4" r="11" fill="#000000" stroke="none" />
+    <path d="M 568.0 382.2 L 679.5 189.1" stroke-width="4" />
+    <circle cx="679.5" cy="189.1" r="11" fill="#000000" stroke="none" />
+  </g>
+</svg>

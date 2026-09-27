@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000">
+  <g fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 280.0 141.0 L 280.0 312.0 L 280.0 381.0 L 280.0 877.0" stroke-width="4" />
+    <circle cx="280.0" cy="141.0" r="8" fill="#000000" stroke="none" />
+    <circle cx="280.0" cy="877.0" r="8" fill="#000000" stroke="none" />
+    <path d="M 342.0 119.0 L 342.0 262.0 L 342.0 363.0 L 342.0 854.0" stroke-width="4" />
+    <circle cx="342.0" cy="119.0" r="8" fill="#000000" stroke="none" />
+    <circle cx="342.0" cy="854.0" r="8" fill="#000000" stroke="none" />
+    <path d="M 404.0 136.0 L 404.0 263.0 L 404.0 381.0 L 404.0 854.0" stroke-width="4" />
+    <circle cx="404.0" cy="136.0" r="8" fill="#000000" stroke="none" />
+    <circle cx="404.0" cy="854.0" r="8" fill="#000000" stroke="none" />
+    <path d="M 466.0 147.0 L 466.0 305.0 L 466.0 403.0 L 466.0 855.0" stroke-width="4" />
+    <circle cx="466.0" cy="147.0" r="8" fill="#000000" stroke="none" />
+    <circle cx="466.0" cy="855.0" r="8" fill="#000000" stroke="none" />
+    <path d="M 528.0 86.0 L 528.0 191.0 L 488.0 277.0 L 488.0 851.0" stroke-width="4" />
+    <circle cx="528.0" cy="86.0" r="8" fill="#000000" stroke="none" />
+    <circle cx="488.0" cy="851.0" r="8" fill="#000000" stroke="none" />
+    <path d="M 590.0 97.0 L 590.0 212.0 L 630.0 283.0 L 630.0 859.0" stroke-width="4" />
+    <circle cx="590.0" cy="97.0" r="8" fill="#000000" stroke="none" />
+    <circle cx="630.0" cy="859.0" r="8" fill="#000000" stroke="none" />
+    <path d="M 652.0 149.0 L 652.0 269.0 L 612.0 351.0 L 612.0 897.0" stroke-width="4" />
+    <circle cx="652.0" cy="149.0" r="8" fill="#000000" stroke="none" />
+    <circle cx="612.0" cy="897.0" r="8" fill="#000000" stroke="none" />
+  </g>
+</svg>
