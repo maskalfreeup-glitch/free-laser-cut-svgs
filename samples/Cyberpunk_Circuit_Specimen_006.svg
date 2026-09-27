@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000">
   <g fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round">
-    <polygon points="676.0,500.0 588.0,652.4 412.0,652.4 324.0,500.0 412.0,347.6 588.0,347.6" stroke-width="5" />
-    <path d="M 676.0 500.0 L 837.0 500.0" stroke-width="4" />
-    <circle cx="837.0" cy="500.0" r="11" fill="#000000" stroke="none" />
-    <path d="M 588.0 652.4 L 697.5 842.1" stroke-width="4" />
-    <circle cx="697.5" cy="842.1" r="11" fill="#000000" stroke="none" />
-    <path d="M 412.0 652.4 L 332.0 791.0" stroke-width="4" />
-    <circle cx="332.0" cy="791.0" r="11" fill="#000000" stroke="none" />
-    <path d="M 324.0 500.0 L 170.0 500.0" stroke-width="4" />
-    <circle cx="170.0" cy="500.0" r="11" fill="#000000" stroke="none" />
-    <path d="M 412.0 347.6 L 305.5 163.1" stroke-width="4" />
-    <circle cx="305.5" cy="163.1" r="11" fill="#000000" stroke="none" />
-    <path d="M 588.0 347.6 L 704.5 145.8" stroke-width="4" />
-    <circle cx="704.5" cy="145.8" r="11" fill="#000000" stroke="none" />
+    <polygon points="679.0,500.0 589.5,655.0 410.5,655.0 321.0,500.0 410.5,345.0 589.5,345.0" stroke-width="5" />
+    <path d="M 679.0 500.0 L 833.0 500.0" stroke-width="4" />
+    <circle cx="833.0" cy="500.0" r="11" fill="#000000" stroke="none" />
+    <path d="M 589.5 655.0 L 695.0 837.7" stroke-width="4" />
+    <circle cx="695.0" cy="837.7" r="11" fill="#000000" stroke="none" />
+    <path d="M 410.5 655.0 L 306.0 836.0" stroke-width="4" />
+    <circle cx="306.0" cy="836.0" r="11" fill="#000000" stroke="none" />
+    <path d="M 321.0 500.0 L 105.0 500.0" stroke-width="4" />
+    <circle cx="105.0" cy="500.0" r="11" fill="#000000" stroke="none" />
+    <path d="M 410.5 345.0 L 299.0 151.9" stroke-width="4" />
+    <circle cx="299.0" cy="151.9" r="11" fill="#000000" stroke="none" />
+    <path d="M 589.5 345.0 L 705.0 144.9" stroke-width="4" />
+    <circle cx="705.0" cy="144.9" r="11" fill="#000000" stroke="none" />
   </g>
 </svg>
