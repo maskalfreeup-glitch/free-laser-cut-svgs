@@ -1,35 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000">
-  <g fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M 280.0 109.0 L 280.0 295.0 L 320.0 361.0 L 320.0 866.0" stroke-width="4" />
-    <circle cx="280.0" cy="109.0" r="8" fill="#000000" stroke="none" />
-    <circle cx="320.0" cy="866.0" r="8" fill="#000000" stroke="none" />
-    <path d="M 324.0 115.0 L 324.0 286.0 L 364.0 357.0 L 364.0 913.0" stroke-width="4" />
-    <circle cx="324.0" cy="115.0" r="8" fill="#000000" stroke="none" />
-    <circle cx="364.0" cy="913.0" r="8" fill="#000000" stroke="none" />
-    <path d="M 368.0 122.0 L 368.0 317.0 L 368.0 424.0 L 368.0 858.0" stroke-width="4" />
-    <circle cx="368.0" cy="122.0" r="8" fill="#000000" stroke="none" />
-    <circle cx="368.0" cy="858.0" r="8" fill="#000000" stroke="none" />
-    <path d="M 412.0 160.0 L 412.0 265.0 L 452.0 380.0 L 452.0 883.0" stroke-width="4" />
-    <circle cx="412.0" cy="160.0" r="8" fill="#000000" stroke="none" />
-    <circle cx="452.0" cy="883.0" r="8" fill="#000000" stroke="none" />
-    <path d="M 456.0 82.0 L 456.0 282.0 L 456.0 374.0 L 456.0 887.0" stroke-width="4" />
-    <circle cx="456.0" cy="82.0" r="8" fill="#000000" stroke="none" />
-    <circle cx="456.0" cy="887.0" r="8" fill="#000000" stroke="none" />
-    <path d="M 500.0 160.0 L 500.0 313.0 L 500.0 400.0 L 500.0 913.0" stroke-width="4" />
-    <circle cx="500.0" cy="160.0" r="8" fill="#000000" stroke="none" />
-    <circle cx="500.0" cy="913.0" r="8" fill="#000000" stroke="none" />
-    <path d="M 544.0 133.0 L 544.0 305.0 L 544.0 395.0 L 544.0 844.0" stroke-width="4" />
-    <circle cx="544.0" cy="133.0" r="8" fill="#000000" stroke="none" />
-    <circle cx="544.0" cy="844.0" r="8" fill="#000000" stroke="none" />
-    <path d="M 588.0 83.0 L 588.0 281.0 L 628.0 395.0 L 628.0 918.0" stroke-width="4" />
-    <circle cx="588.0" cy="83.0" r="8" fill="#000000" stroke="none" />
-    <circle cx="628.0" cy="918.0" r="8" fill="#000000" stroke="none" />
-    <path d="M 632.0 139.0 L 632.0 254.0 L 672.0 330.0 L 672.0 845.0" stroke-width="4" />
-    <circle cx="632.0" cy="139.0" r="8" fill="#000000" stroke="none" />
-    <circle cx="672.0" cy="845.0" r="8" fill="#000000" stroke="none" />
-    <path d="M 676.0 144.0 L 676.0 336.0 L 676.0 433.0 L 676.0 873.0" stroke-width="4" />
-    <circle cx="676.0" cy="144.0" r="8" fill="#000000" stroke="none" />
-    <circle cx="676.0" cy="873.0" r="8" fill="#000000" stroke="none" />
-  </g>
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+<g fill="none" stroke="#000000" stroke-width="2">
+<path d="M100 60 V150 H60 V240 H100 V340"/>
+<path d="M160 60 V110 H210 V190 H160 V340"/>
+<path d="M220 60 V200 H300 V260 H220 V340"/>
+<path d="M280 60 V90 H340 V230 H280 V340"/>
+<circle cx="100" cy="60" r="5"/>
+<circle cx="100" cy="340" r="5"/>
+<circle cx="160" cy="60" r="5"/>
+<circle cx="160" cy="340" r="5"/>
+<circle cx="220" cy="60" r="5"/>
+<circle cx="220" cy="340" r="5"/>
+<circle cx="280" cy="60" r="5"/>
+<circle cx="280" cy="340" r="5"/>
+</g>
 </svg>
