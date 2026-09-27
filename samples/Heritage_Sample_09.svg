@@ -1,10 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000">
-  <g fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round">
-    <polygon points="500.0,300.0 550.0,440.0 515.0,550.0 485.0,550.0 450.0,440.0" stroke-width="5" />
-    <path d="M 525.0 460.0 L 630.0 410.0 L 660.0 520.0 L 560.0 560.0 L 520.0 560.0" stroke-width="4" />
-    <path d="M 475.0 460.0 L 370.0 410.0 L 340.0 520.0 L 440.0 560.0 L 480.0 560.0" stroke-width="4" />
-    <rect x="415" y="565" width="170" height="24" stroke-width="5" />
-    <polygon points="455.0,595.0 545.0,595.0 500.0,680.0" stroke-width="4" />
-  </g>
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+<g fill="none" stroke="#000000" stroke-width="2">
+<circle cx="200" cy="200" r="140"/>
+<circle cx="200" cy="200" r="20"/>
+<path d="M200 60 L212 160 L200 180 L188 160 Z"/>
+<path d="M200 340 L212 240 L200 220 L188 240 Z"/>
+<path d="M60 200 L160 188 L180 200 L160 212 Z"/>
+<path d="M340 200 L240 188 L220 200 L240 212 Z"/>
+<path d="M97 97 L170 150 L150 170 L97 97 Z"/>
+<path d="M303 303 L230 250 L250 230 L303 303 Z"/>
+<path d="M303 97 L250 170 L230 150 L303 97 Z"/>
+<path d="M97 303 L150 230 L170 250 L97 303 Z"/>
+</g>
 </svg>

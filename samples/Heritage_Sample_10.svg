@@ -1,14 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000">
-  <g fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="500" cy="500" r="260" stroke-width="5" />
-    <circle cx="500" cy="500" r="230" stroke-width="2" />
-    <circle cx="500.0" cy="610.0" r="115" stroke-width="4" />
-    <circle cx="500.0" cy="610.0" r="90" stroke-width="2" />
-    <circle cx="404.7372055837118" cy="445.0" r="115" stroke-width="4" />
-    <circle cx="404.7372055837118" cy="445.0" r="90" stroke-width="2" />
-    <circle cx="595.2627944162882" cy="444.99999999999994" r="115" stroke-width="4" />
-    <circle cx="595.2627944162882" cy="444.99999999999994" r="90" stroke-width="2" />
-    <circle cx="500" cy="500" r="35" stroke-width="4" />
-  </g>
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+<g fill="none" stroke="#000000" stroke-width="2">
+<path d="M200 90 C260 90 260 150 200 150 C140 150 140 210 200 210 C260 210 260 270 200 270 C140 270 140 330 200 330"/>
+<path d="M200 90 C140 90 140 150 200 150 C260 150 260 210 200 210 C140 210 140 270 200 270 C260 270 260 330 200 330"/>
+<circle cx="200" cy="90" r="8"/>
+<circle cx="200" cy="330" r="8"/>
+<circle cx="200" cy="210" r="8"/>
+<circle cx="200" cy="200" r="150"/>
+</g>
 </svg>
