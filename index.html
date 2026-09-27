@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Open Vector Foundry — Node-Reduced Laser Calibration SVGs</title>
+<meta name="description" content="Node-reduced, closed-path vector calibration files engineered for zero double-burns on Glowforge, LightBurn, xTool, and CNC routing.">
+<link rel="canonical" href="https://maskalfreeup-glitch.github.io/free-laser-cut-svgs/">
+
+<!-- OpenGraph -->
+<meta property="og:title" content="Open Vector Foundry — Node-Reduced Laser Calibration SVGs">
+<meta property="og:description" content="Node-reduced, closed-path vector calibration files engineered for zero double-burns on Glowforge, LightBurn, xTool, and CNC routing.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://maskalfreeup-glitch.github.io/free-laser-cut-svgs/">
+
+<!-- JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DataCatalog",
+  "name": "Open Vector Foundry",
+  "description": "Node-reduced, closed-path vector calibration files engineered for zero double-burns on Glowforge, LightBurn, xTool, and CNC routing.",
+  "url": "https://maskalfreeup-glitch.github.io/free-laser-cut-svgs/",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Lotus Winter Publications"
+  },
+  "dataset": [
+    {
+      "@type": "Dataset",
+      "name": "Architectural & Heritage Calibration Samples",
+      "description": "Eight heritage-themed closed-path calibration SVG files."
+    },
+    {
+      "@type": "Dataset",
+      "name": "Cyberpunk Circuit Geometry Specimens",
+      "description": "Eight cyberpunk circuit geometry closed-path calibration SVG files."
+    }
+  ]
+}
+</script>
+
+<style>
+  :root {
+    --bg: #0a0e17;
+    --bg-elevated: #0f1420;
+    --border: #1e293b;
+    --border-hover: #d4a359;
+    --text-primary: #f1f5f9;
+    --text-secondary: #94a3b8;
+    --accent: #d4a359;
+    --accent-dim: #8a6a3a;
+    --radius: 10px;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--bg);
+    color: var(--text-primary);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  /* Header */
+  header.site-header {
+    border-bottom: 1px solid var(--border);
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    background-color: rgba(10, 14, 23, 0.85);
+    backdrop-filter: blur(10px);
+    z-index: 100;
+  }
+
+  .site-header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo {
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .logo-mark {
+    width: 10px;
+    height: 10px;
+    background-color: var(--accent);
+    border-radius: 2px;
+    transform: rotate(45deg);
+  }
+
+  nav.site-nav a {
+    color: var(--text-secondary);
+    font-size: 14px;
+    margin-left: 28px;
+    transition: color 0.2s ease;
+  }
+
+  nav.site-nav a:hover {
+    color: var(--accent);
+  }
+
+  /* Hero */
+  .hero {
+    padding: 90px 0 70px;
+    border-bottom: 1px solid var(--border);
+    text-align: center;
+  }
+
+  .hero-eyebrow {
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--accent);
+    border: 1px solid var(--accent-dim);
+    padding: 6px 14px;
+    border-radius: 999px;
+    margin-bottom: 24px;
+  }
+
+  .hero h1 {
+    font-size: clamp(32px, 5vw, 56px);
+    font-weight: 800;
+    letter-spacing: -1px;
+    margin-bottom: 20px;
+  }
+
+  .hero p.tagline {
+    max-width: 680px;
+    margin: 0 auto 40px;
+    color: var(--text-secondary);
+    font-size: clamp(15px, 2vw, 18px);
+  }
+
+  .hero-actions {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 14px 28px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    transition: all 0.2s ease;
+    border: 1px solid transparent;
+    cursor: pointer;
+  }
+
+  .btn-primary {
+    background-color: var(--accent);
+    color: #0a0e17;
+  }
+
+  .btn-primary:hover {
+    background-color: #e6b978;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(212, 163, 89, 0.25);
+  }
+
+  .btn-secondary {
+    background-color: transparent;
+    border: 1px solid var(--border);
+    color: var(--text-primary);
+  }
+
+  .btn-secondary:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    transform: translateY(-2px);
+  }
+
+  /* Sections */
+  section.catalog-section {
+    padding: 80px 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .section-header {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .section-header h2 {
+    font-size: clamp(24px, 3vw, 32px);
+    font-weight: 700;
+    letter-spacing: -0.5px;
+  }
+
+  .section-header .section-count {
+    color: var(--text-secondary);
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 1px solid var(--border);
+    padding: 6px 12px;
+    border-radius: 999px;
+  }
+
+  .section-desc {
+    color: var(--text-secondary);
+    max-width: 640px;
+    margin-bottom: 36px;
+    font-size: 15px;
+  }
+
+  /* Grid */
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 22px;
+  }
+
+  @media (max-width: 1080px) {
+    .card-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media (max-width: 780px) {
+    .card-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 480px) {
+    .card-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .vector-card {
+    background-color: var(--bg-elevated);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: border-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+  }
+
+  .vector-card:hover {
+    border-color: var(--border-hover);
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
+  }
+
+  .vector-preview {
+    aspect-ratio: 1 / 1;
+    background-color: #05070c;
+    background-image:
+      linear-gradient(rgba(212, 163, 89, 0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(212, 163, 89, 0.04) 1px, transparent 1px);
+    background-size: 16px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 22px;
+    border-bottom: 1px solid var(--border);
+    overflow: hidden;
+  }
+
+  .vector-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    filter: invert(1);
+    opacity: 0.92;
+    transition: opacity 0.25s ease, transform 0.4s ease;
+  }
+
+  .vector-card:hover .vector-preview img {
+    opacity: 1;
+    transform: scale(1.04);
+  }
+
+  .vector-meta {
+    padding: 16px 18px 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex: 1;
+  }
+
+  .vector-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-primary);
+    word-break: break-word;
+  }
+
+  .vector-sub {
+    font-size: 12px;
+    color: var(--text-secondary);
+    letter-spacing: 0.3px;
+  }
+
+  .btn-download {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 14px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    background-color: transparent;
+    color: var(--text-primary);
+    font-size: 13px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+  }
+
+  .btn-download:hover {
+    background-color: var(--accent);
+    border-color: var(--accent);
+    color: #0a0e17;
+  }
+
+  .btn-download svg {
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
+  }
+
+  /* Commercial CTA Banner */
+  .commercial-banner {
+    padding: 80px 0;
+    background: linear-gradient(180deg, rgba(212, 163, 89, 0.06) 0%, rgba(10, 14, 23, 0) 100%);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .banner-box {
+    background-color: var(--bg-elevated);
+    border: 1px solid var(--accent-dim);
+    border-radius: 16px;
+    padding: 56px 40px;
+    text-align: center;
+    max-width: 780px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .banner-box::before {
+    content: "";
+    position: absolute;
+    top: -40%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(212, 163, 89, 0.14) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .banner-box .badge {
+    display: inline-block;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 18px;
+    font-weight: 700;
+  }
+
+  .banner-box h2 {
+    font-size: clamp(24px, 3.5vw, 34px);
+    font-weight: 800;
+    margin-bottom: 18px;
+    letter-spacing: -0.5px;
+    position: relative;
+  }
+
+  .banner-box p {
+    color: var(--text-secondary);
+    max-width: 560px;
+    margin: 0 auto 32px;
+    font-size: 15px;
+    position: relative;
+  }
+
+  /* Footer */
+  footer.site-footer {
+    padding: 40px 0;
+    text-align: center;
+    color: var(--text-secondary);
+    font-size: 13px;
+  }
+
+  footer.site-footer a {
+    color: var(--accent);
+  }
+
+  footer.site-footer a:hover {
+    text-decoration: underline;
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <div class="logo">
+      <span class="logo-mark"></span>
+      Open Vector Foundry
+    </div>
+    <nav class="site-nav">
+      <a href="#heritage">Heritage</a>
+      <a href="#cyberpunk">Cyberpunk</a>
+      <a href="#archive">Full Archive</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <span class="hero-eyebrow">Free &amp; Open Calibration Set</span>
+    <h1>Open Vector Foundry</h1>
+    <p class="tagline">Node-reduced, closed-path vector calibration files engineered for zero double-burns on Glowforge, LightBurn, xTool, and CNC routing.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="https://github.com/maskalfreeup-glitch/free-laser-cut-svgs/releases/tag/v1.0.0">Download Starter Packs (.ZIP v1.0.0)</a>
+      <a class="btn btn-secondary" href="https://github.com/maskalfreeup-glitch/free-laser-cut-svgs">View Source Repository</a>
+    </div>
+  </div>
+</section>
+
+<section class="catalog-section" id="heritage">
+  <div class="container">
+    <div class="section-header">
+      <h2>Architectural &amp; Heritage Calibration Samples</h2>
+      <span class="section-count">8 Files</span>
+    </div>
+    <p class="section-desc">Closed-path heritage and architectural motifs, node-reduced for clean kerf tracking and consistent burn timing across pass-heavy material stock.</p>
+    <div class="card-grid">
+
+      <div class="vector-card">
+        <div class="vector-preview"><img src="samples/Heritage_Sample_01.svg" alt="Heritage Sample 01 vector preview" loading="lazy"></div>
+        <div class="vector-meta">
+          <div class="vector-title">Heritage Sample 01</div>
+          <div class="vector-sub">Closed-Path · SVG</div>
+          <a class="btn-download" href="samples/Heritage_Sample_01.svg" download>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            Download SVG
+          </a>
+        </div>
+      </div>
+
+      <div class="vector-card">
+        <div class="vector-preview"><img src="samples/Heritage_Sample_02.svg" alt="Heritage Sample 02 vector preview" loading="lazy"></div>
+        <div class="vector-meta">
+          <div class="vector-title">Heritage Sample 02</div>
+          <div class="vector-sub">Closed-Path · SVG</div>
+          <a class="btn-download" href="samples/Heritage_Sample_02.svg" download>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            Download SVG
+          </a>
+        </div>
+      </div>
+
+      <div class="vector-card">
+        <div class="vector-preview"><img src="samples/Heritage_Sample_03.svg" alt="Heritage Sample 03 vector preview" loading="lazy"></div>
+        <div class="vector-meta">
+          <div class="vector-title">Heritage Sample 03</div>
+          <div class="vector-sub">Closed-Path · SVG</div>
+          <a class="btn-download" href="samples/Heritage_Sample_03.svg" download>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            Download SVG
+          </a>
+        </div>
+      </div>
+
+      <div class="vector-card">
+        <div class="vector-preview"><img src="samples/Heritage_Sample_04.svg" alt="Heritage Sample 04 vector preview" loading="lazy"></div>
+        <div class="vector-meta">
+          <div class="vector-title">Heritage Sample 04</div>
+          <div class="vector-sub">Closed-Path · SVG</div>
+          <a class="btn-download" href="samples/Heritage_Sample_04.svg" download>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            Download SVG
+          </a>
+        </div>
+      </div>
+
+      <div class="vector-card">
+        <div class="vector-preview"><img src="samples/Heritage_Sample_05.svg" alt="Heritage Sample 05 vector preview" loading="lazy"></div>
+        <div class="vector-meta">
+          <div class="vector-title">Heritage Sample 05</div>
+          <div class="vector-sub">Closed-Path · SVG</div>
+          <a class="btn-download" href="samples/Heritage_Sample_05.svg" download>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            Download SVG
+          </a>
+        </div>
+      </div>
+
+      <div class="vector-card">
+        <div class="vector-preview"><img src="samples/Heritage_Sample_06.svg" alt="Heritage Sample 06 vector preview" loading="lazy"></div>
+        <div class="vector-meta">
+          <div class="vector-title">Heritage Sample 06</div>
+          <div class="vector-sub">Closed-Path · SVG</div>
+          <a class="btn-download" href="samples/Heritage_Sample_06.svg" download>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            Download SVG
+          </a>
+        </div>
+      </div>
+
+      <div class="vector-card">
+        <div class="vector-preview"><img src="samples/Heritage_Sample_07.svg" alt="Heritage Sample 07 vector preview" loading="lazy"></div>
+        <div class="vector-meta">
+          <div class="vector-title">Heritage Sample 07</div>
+          <div class="vector-sub">Closed-Path · SVG</div>
+          <a class="btn-download" href="samples/Heritage_Sample_07.svg" download>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            Download SVG
+          </a>
+        </div>
+      </div>
+
+      <div class="vector-card">
+        <div class="vector-preview"><img src="samples/Heritage_Sample_08.svg" alt="Heritage Sample 08 vector preview" loading="lazy"></div>
+        <div class="vector-meta">
+          <div class="vector-title">Heritage Sample 08</div>
+          <div class="vector-sub">Closed-Path · SVG</div>
+          <a class="btn-download" href="samples/Heritage_Sample_08.svg" download>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            Download SVG
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="catalog-section" id="cyberpunk">
+  <div class="container">
+    <div class="section-header">
+      <h2>Cyberpunk Circuit Geometry Specimens</h2>
+      <span class="section-count">8 Files</span>
+    </div>
+    <p class="section-desc">High-density circuit-trace geometry specimens, calibrated to hold fine detail at low-power passes without micro-fracturing on acrylic or plywood.</p>
+    <div class="card-grid">
+
+      <div class="vector-card">
+        <div class="vector-preview"><img src="samples/Cyberpunk_Circuit_Specimen_001.svg" alt="Cyberpunk Circuit Specimen 001 vector preview" loading="lazy"></div>
+        <div class="vector-meta">
+          <div class="vector-title">Cyberpunk Circuit Specimen 001</div>
+          <div class="vector-sub">Closed-Path · SVG</div>
+          <a class="btn-download" href="samples/Cyberpunk_Circuit_Specimen_001.svg" download>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            Download SVG
+          </a>
+        </div>
+      </div>
+
+      <div class="vector-card">
+        <div class="vector-preview"><img src="samples/Cyberpunk_Circuit_Specimen_002.svg" alt="Cyberpunk Circuit Specimen 002 vector preview" loading="lazy"></div>
+        <div class="vector-meta">
+          <div class="vector-title">Cyberpunk Circuit Specimen 002</div>
+          <div class="vector-sub">Closed-Path · SVG</div>
+          <a class="btn-download" href="samples/Cyberpunk_Circuit_Specimen_002.svg" download>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            Download SVG
+          </a>
+        </div>
+      </div>
+
+      <div class="vector-card">
+        <div class="vector-preview"><img src="samples/Cyberpunk_Circuit_Specimen_003.svg" alt="Cyberpunk Circuit Specimen 003 vector preview" loading="lazy"></div>
+        <div class="vector-meta">
+          <div class="vector-title">Cyberpunk Circuit Specimen 003</div>
+          <div class="vector-sub">Closed-Path · SVG</div>
+          <a class="btn-download" href="samples/Cyberpunk_Circuit_Specimen_003.svg" download>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            Download SVG
+          </a>
+        </div>
+      </div>
+
+      <div class="vector-card">
+        <div class="vector-preview"><img src="samples/Cyberpunk_Circuit_Specimen_004.svg" alt="Cyberpunk Circuit Specimen 004 vector preview" loading="lazy"></div>
+        <div class="vector-meta">
+          <div class="vector-title">Cyberpunk Circuit Specimen 004</div>
+          <div class="vector-sub">Closed-Path · SVG</div>
+          <a class="btn-download" href="samples/Cyberpunk_Circuit_Specimen_004.svg" download>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            Download SVG
+          </a>
+        </div>
+      </div>
+
+      <div class="vector-card">
+        <div class="vector-preview"><img src="samples/Cyberpunk_Circuit_Specimen_005.svg" alt="Cyberpunk Circuit Specimen 005 vector preview" loading="lazy"></div>
+        <div class="vector-meta">
+          <div class="vector-title">Cyberpunk Circuit Specimen 005</div>
+          <div class="vector-sub">Closed-Path · SVG</div>
+          <a class="btn-download" href="samples/Cyberpunk_Circuit_Specimen_005.svg" download>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            Download SVG
+          </a>
+        </div>
+      </div>
+
+      <div class="vector-card">
+        <div class="vector-preview"><img src="samples/Cyberpunk_Circuit_Specimen_006.svg" alt="Cyberpunk Circuit Specimen 006 vector preview" loading="lazy"></div>
+        <div class="vector-meta">
+          <div class="vector-title">Cyberpunk Circuit Specimen 006</div>
+          <div class="vector-sub">Closed-Path · SVG</div>
+          <a class="btn-download" href="samples/Cyberpunk_Circuit_Specimen_006.svg" download>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            Download SVG
+          </a>
+        </div>
+      </div>
+
+      <div class="vector-card">
+        <div class="vector-preview"><img src="samples/Cyberpunk_Circuit_Specimen_007.svg" alt="Cyberpunk Circuit Specimen 007 vector preview" loading="lazy"></div>
+        <div class="vector-meta">
+          <div class="vector-title">Cyberpunk Circuit Specimen 007</div>
+          <div class="vector-sub">Closed-Path · SVG</div>
+          <a class="btn-download" href="samples/Cyberpunk_Circuit_Specimen_007.svg" download>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            Download SVG
+          </a>
+        </div>
+      </div>
+
+      <div class="vector-card">
+        <div class="vector-preview"><img src="samples/Cyberpunk_Circuit_Specimen_008.svg" alt="Cyberpunk Circuit Specimen 008 vector preview" loading="lazy"></div>
+        <div class="vector-meta">
+          <div class="vector-title">Cyberpunk Circuit Specimen 008</div>
+          <div class="vector-sub">Closed-Path · SVG</div>
+          <a class="btn-download" href="samples/Cyberpunk_Circuit_Specimen_008.svg" download>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            Download SVG
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="commercial-banner" id="archive">
+  <div class="container">
+    <div class="banner-box">
+      <span class="badge">Commercial License</span>
+      <h2>Complete Master Foundry Archive (Volumes 01–15)</h2>
+      <p>1,515+ commercial-cleared closed-path vector plates, master KDP interiors, and high-density SVG/DXF cut paths calibrated for professional production studios.</p>
+      <a class="btn btn-primary" href="https://lotuswinter.gumroad.com/">Access Complete Commercial Archive ($97)</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    Maintained by <a href="https://lotuswinter.gumroad.com/">Lotus Winter Publications</a> • Public Domain &amp; Open Maker Calibration Project
+  </div>
+</footer>
+
+</body>
+</html>
